@@ -1,6 +1,6 @@
 <meta charset="utf-8">
   <h1 align="center">
-    <img alt="Logo Happy" title="#Happy" src="./src/images/map-marker.svg" width="200px">
+    <img alt="Logo Happy" title="#Happy" src="./web/src/images/map-marker.svg" width="200px">
   <h1 align="center">Happy</>
   </h1>
 
