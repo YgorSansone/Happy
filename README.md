@@ -1,7 +1,7 @@
 <meta charset="utf-8">
   <h1 align="center">
     <img alt="Logo Happy" title="#Happy" src="./web/src/images/map-marker.svg" width="200px">
-  <h1 align="center">Happy</>
+  <h1 align="center">🚀 Happy 🚀</>
   </h1>
 
 
@@ -21,8 +21,9 @@
 
 ## Sobre o Happy
 <p align="center">
-  <img src="https://img.shields.io/badge/-Node.js-67a05b?logo=Node.js&logoColor=ffffff&link=https://github.com/YgorSansone/Drone-REST-API" />
   <img src="https://img.shields.io/badge/-React-61DAFB?logo=React&logoColor=white&link=https://github.com/YgorSansone/Pief-3" />
+  <img src="https://img.shields.io/badge/-Node.js-67a05b?logo=Node.js&logoColor=ffffff&link=https://github.com/YgorSansone/Drone-REST-API" />
+  <img src="https://img.shields.io/badge/-React_Native-61DAFB?logo=Android&logoColor=white&link=https://github.com/YgorSansone/Pief-3" />
 </p>
 
 O Happy tem como missão auxiliar crianças carentes, facilitando a visita de voluntários a orfanatos.
@@ -38,6 +39,8 @@ Projeto do figma para a versão Web e Mobile.
 
 ## Tecnologias
 
+- **Frontend**
+
 - [x] TypeScript
  
 - [x] React
@@ -45,26 +48,72 @@ Projeto do figma para a versão Web e Mobile.
 - [x] Leaflet
  
 - [x] Mapbox
+ 
+- [x] React Leaflet
+ 
+- [x] Framer Motion
+ 
+- [x] Open Street Map
+
+- **Backend**
+
+- [x] Express
+
+- [x] Typeorm
+
+- [x] Multer
+
+- [x] Yup
+
+- [x] Nodejs
+- **Mobile**
+
+- [x] TypeScript
+ 
+- [x] React Native
+ 
+- [x] Expo
 
 
 <br>
 
 ## Instalação e uso
 
-#### Web (Front-end)
+##### - 🚀 API
 
-##### Entre na pasta web
-```bash
-$ cd Happy/web
+```sh
+  $ cd backend
+  # Instalar as dependencias
+  $ yarn install
+  # Criar banco de dados
+  $ yarn typeorm migration:run # or npm run typeorm migration:run
+  # Iniciar a API
+  $ yarn dev 
 ```
-##### Instale todas as dependências
-```bash
-$ yarn install
+
+##### - :computer: Web app
+
+```sh
+  $ cd web
+  # Instalar as dependencias
+  $ yarn install
+  # Iniciar Web
+  $ yarn start
 ```
-##### Inicie a aplicação
-```bash
-$ yarn start
+
+##### - :iphone: Mobile app
+
+```sh
+  $ cd mobile
+  # Instalar as dependencias
+  $ yarn install
+  # Iniciar mobile app (IOS / ANDROID)
+  $ yarn start
 ```
+
+<br>
+
+Acesse: [`http://localhost:3333/`](http://localhost:3333/) para visualizar.
 <br>
 
 ## Licença
