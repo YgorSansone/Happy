@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import OrphanagesMap from "./pages/OrphanagesMap";
 import Landing from "./pages/Landing";
 import Orphanage from "./pages/Orphanage";
