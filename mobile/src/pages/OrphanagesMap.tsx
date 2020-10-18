@@ -7,10 +7,14 @@ import {useFonts} from 'expo-font';
 import {Nunito_600SemiBold, Nunito_700Bold, Nunito_800ExtraBold} from '@expo-google-fonts/nunito'
 import { Feather} from '@expo/vector-icons';
 import {useNavigation} from '@react-navigation/native';
+import { RectButton } from 'react-native-gesture-handler';
 export default function OrphanagesMap(){
   const navigation = useNavigation();
   function handleNavigateToOrphanageDetails (){
     navigation.navigate('OrphanagesDetails');
+  }
+  function handleNavigateToCreateOrphanage (){
+    navigation.navigate('SelectMapPosition');
   }
     return(
         <View style={styles.container}>
@@ -45,9 +49,9 @@ export default function OrphanagesMap(){
             <Text style={styles.footerText}>
               2 orphanatos encontrados
             </Text>
-            <TouchableOpacity style={styles.createOrphanagesButton} onPress={()=>{}}>
+            <RectButton style={styles.createOrphanagesButton} onPress={handleNavigateToCreateOrphanage}>
               <Feather name="plus" size={20} color="#FFF"/>
-            </TouchableOpacity>
+            </RectButton>
           </View>
       </View>
     );
