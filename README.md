@@ -37,6 +37,10 @@ Projeto do figma para a versão Web e Mobile.
 - 💻 [Web](https://www.figma.com/file/zqkkbVy4O78tfVego3L3n6/Happy-Web)
 - 📱 [Mobile](https://www.figma.com/file/B3D9vCejARJI4kLu5SyWqg/Happy-Mobile)
 
+<p align="center">
+  <img alt="Happy" src="happy.png" width="100%">
+</p>
+
 ## Tecnologias
 
 - **Frontend**
