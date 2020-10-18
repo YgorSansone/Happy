@@ -2,6 +2,7 @@
 
 # dependencies
 /backend/node_modules
+/mobile/node_modules
 /nackend/yarn-error.log
 /web/node_modules
 /.pnp
